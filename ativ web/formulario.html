@@ -1,84 +1,20 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Cadastro</title>
-</head>
-<body>
-    <table cellspacing="10px" cellpadding="10px" align="center" border="1" width="1000px" bordercolor="gray">
-        <tr>
-            <td><img src="imagens_pizza/topo.png" width="100%" alt=""></td>
-        </tr>
-        <tr>
-            <td>
-                <font face="arial" color="darkred">
-                <img src="imagens_pizza/icone_pizza.gif" align="left">
-                <h3>Cadastre-se e receba nossas atualizações</h3>  
-                </font>
-                <hr size="2" color="darkred">
-                <form>
-                <table  align="center" border="1" bordercolor="gray" width="78%">
-                    <tr>
-                        <td align="right"><font color="darkred">Nome:</font></td>     
-                        <td><input type="text"></td>                                    
-                    </tr>
-                    <tr>
-                        <td align="right"><font color="darkred">Senha:</font></td>
-                        <td><input type="password"></td>
-                    </tr>
-                    <tr>
-                        <td align="right"><font color="darkred">Confirmação de senha:</font></td>
-                        <td><input type="password"></td>
-                    </tr>
-                    <tr>
-                        <td align="right"><font color="darkred">Seu tipo de pizza favorito:</font></td>
-                        <td><select name="slt_pizza">
-                            <option value="Margherita">Margherita</option>
-                            <option value="Mussarela">Mussarela</option>
-                            <option value="Portuguesa">Portuguesa</option>
-                            <option value="Calabresa">Calabresa</option>
-                            <option value="Califórnia">Califórnia</option>
-                            <option value="Pepperoni">Pepperoni</option>
-                            <option value="Quatro queijos">Quatro queijos</option>
-                            <option value="Bacon">Bacon</option>
-                        </select></td>
-                    </tr>
-                    <tr>
-                        <td align="right"><font color="darkred">Quantas vezes come Pizza por semestre?</font></td>
-                        <td>
-                            <input type="radio" name="qtd_pizza" value="1-5">Entre 1 e 5<br>
-                            <input type="radio" name="qtd_pizza" value="5-10">5 a 10<br>
-                            <input type="radio" name="qtd_pizza" value="10+">Mais de 10<br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="right"><font color="darkred"> Comentários:</font></td>
-                        <td><textarea name="comentarios"  cols="60" rows="6"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td colspan="6" align="center"> 
-                            <input type="checkbox" name="confirm" value="confirmar" style="background-color: transparent;">
-                            <font color="darkred">Deseja receber e-mails dos nossos parceiros</font>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center" colspan="2">
-                            <input type="submit" name="btn_enviar" value="Enviar" style="background-color: #ccc">
-                            <input type="reset" name="btn_limpar" value="Limpar" style="background-color: #ccc">
-                        </td>
-                    </tr> 
-                </table>
-                </form>
-                <hr size="2" color="darkred">
-            </td>             
-        </tr>          
-        </tr>
-        <tr>
-            <td align="center"><font face="verdana" size="1" color="darkred"><p><u>www.pizzaonline.com.br</u></p></font></td>
-        </tr>
-        <tr>
-            <td><img src="imagens_pizza/topo.png" width="100%" alt=""></td>
-        </tr>
-    </table>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <fieldset style = "width: 500px; margin-right: 100px">
+            <legend align ="right"><img src="exec_img_form/opera.png" width="40%"></legend>
+            <form action="">
+            Name(required) <input type="text" required autofocus><br>
+            Title <input type="text"><br>
+            Shoesize <input type="number"><br>
+            Email <input type="email"><br>
+            Webpage <input type="url"><br>
+            Date of Birth <input type="date"><br>
+            Attractiveness<br>
+            </form>
+        </fieldset>
+    </body>
 </html>
